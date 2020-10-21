@@ -1,4 +1,6 @@
-
+*{
+  font-size: 15px;
+}
 
 @keyframes App-logo-spin {
   from {

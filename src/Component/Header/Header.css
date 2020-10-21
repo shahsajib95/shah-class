@@ -1,0 +1,28 @@
+
+.navbar{
+    font-size: 15px!important;
+}
+.nav-link {
+    margin-left: 35px;
+    color: white!important;
+}
+.form-row{
+    opacity: 0.8;
+}
+.input-group-text{
+    background-color: white!important;
+}
+.form-control{
+    font-size: 12px!important;
+}
+@media (max-width: 970px) {
+    .nav-link {
+        margin-left: 0;
+    }
+  }
+  @media (max-width: 1199px) {
+    .nav-link {
+        margin-left: 0;
+    }
+  }
+  

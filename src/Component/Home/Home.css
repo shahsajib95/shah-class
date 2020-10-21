@@ -1,0 +1,115 @@
+
+.banner{
+    background-image: url( '../../Image/image.png');;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 845px;
+    position: relative;
+                     
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.705);
+}
+.main-content {
+    padding-top: 15%;
+}
+.chowzb, .ikyGAt, .brcpxa, .hCVuYx{
+    visibility: hidden!important; 
+}
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Bebas Neue';
+    
+    
+}
+.slider p {
+    position: absolute;
+    bottom: 11%;
+    left: 44%;
+    font-size: 2rem!important;
+}
+.slider-btn{
+    font-size: 40px;
+}
+.slider img{
+    width: 40%;
+    -webkit-box-shadow: 0px 32px 52px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 32px 52px -12px rgba(0,0,0,0.75);
+    box-shadow: 0px 32px 52px -12px rgba(0,0,0,0.75);
+}
+.slider img:hover{
+    border: 3px solid rgb(255, 251, 0)!important;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.selected{
+    border: 3px solid rgb(255, 251, 0)!important;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.none{
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 991px) {
+    .banner{
+        height: 650px;
+    }
+    .banner p{
+        font-size: 12px;
+    }
+    .main-content {
+        padding-top: 20%;
+    }
+    .banner h1{
+        font-size: 3rem!important;
+    }
+    .slider p {
+        left: 45%;
+        font-size: 1.5rem!important;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .banner{
+        height: 750px;
+    }
+    .slider img{
+        width: 40%;
+        margin-left: 0!important;
+    }
+    .slider p {
+        left: 40%;
+    }
+  }
+  @media only screen and (max-width:  490px) {
+    .slider p {
+        left: 43%;
+        font-size: 1rem!important;
+    }
+    .main-content {
+        padding-top: 40%;
+    }
+  }
+  @media only screen and (max-width:  360px) {
+    .main-content {
+        padding-top: 35%;
+    }
+    .slider p {
+        left: 40%;
+        font-size: 1rem!important;
+    }
+  }
+ 
+
+ 

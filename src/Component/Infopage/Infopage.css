@@ -1,0 +1,50 @@
+.book-hotel {
+    padding-top: 7%;
+    width: 100%;
+    height: 1080px;
+}
+.book-hotel p{
+    color: #979797;
+}
+@media only screen and (max-width: 991px) {
+  .book-hotel {
+    padding-top: 10%;
+}
+  }
+  @media only screen and (max-width: 767px) {
+    .book-hotel {
+      padding-top: 12%;
+  }
+    h4{
+      font-size: 1rem;
+    }
+  }
+  @media only screen and (max-width:  490px) {
+    .book-hotel {
+      padding-top: 18%;
+  }
+    h4{
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+  }
+  @media only screen and (max-width:  575px) {
+    .book-hotel {
+      padding-top: 20%;
+  }
+    h4{
+      margin-top: 1rem;
+    }
+  }
+  @media only screen and (max-width:  360px) {
+    .book-hotel img{
+        width: 20%;
+    }
+    .book-hotel {
+      padding-top: 40%;
+  }
+  h4{
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  }

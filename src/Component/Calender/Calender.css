@@ -1,0 +1,33 @@
+.book-now{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+.book-now .form-control{
+    background-color: #F2F2F2!important;
+}
+.DayPickerInput input{
+    display: block;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #F2F2F2;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 100%;
+}
+.DayPickerInput {
+    display: 0;
+}
+@media only screen and (max-width: 991px) {
+    .book-now .form-label{
+        font-size: 12px!important;
+    }
+    .book-now {
+        padding: 20px!important;
+    }
+}
